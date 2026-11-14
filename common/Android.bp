@@ -210,7 +210,10 @@ android_app_import {
     overrides: ["Contacts"],
     preprocessed: true,
     presigned: true,
-    optional_uses_libs: ["org.apache.http.legacy", "androidx.window.extensions", "androidx.window.sidecar"],
+    enforce_uses_libs: false,
+    dex_preopt: {
+        enabled: false,
+    },
     product_specific: true,
 }
 
@@ -221,6 +224,7 @@ android_app_import {
     overrides: ["Dialer"],
     preprocessed: true,
     presigned: true,
+    enforce_uses_libs: false,
     dex_preopt: {
         enabled: false,
     },
@@ -235,10 +239,10 @@ android_app_import {
     overrides: ["messaging", "Mms"],
     preprocessed: true,
     presigned: true,
+    enforce_uses_libs: false,
     dex_preopt: {
         enabled: false,
     },
-    optional_uses_libs: ["org.apache.http.legacy", "android.telephony.satellite", "androidx.window.extensions", "androidx.window.sidecar"],
     privileged: true,
     product_specific: true,
 }
