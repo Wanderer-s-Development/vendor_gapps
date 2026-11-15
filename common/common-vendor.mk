@@ -5,7 +5,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
-    GoogleCalendarSyncAdapter \
     GoogleContactsSyncAdapter \
     GoogleFeedback \
     GooglePartnerSetup \
@@ -28,6 +27,7 @@ PRODUCT_PACKAGES += \
     GoogleContacts \
     GoogleDialer \
     PrebuiltBugle \
+    NexusLauncherRelease \
     privapp-permissions-google-p.xml
 
 

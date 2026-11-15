@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     Phonesky \
+    Velvet \
+    GooglePhotos \
     SetupWizard \
     libjni_latinimegoogle \
     com.google.android.gmssystem.prodvic

@@ -254,3 +254,17 @@ prebuilt_etc {
     filename_from_src: true,
     product_specific: true,
 }
+
+android_app_import {
+    name: "NexusLauncherRelease",
+    owner: "gapps",
+    apk: "proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk",
+    preprocessed: true,
+    presigned: true,
+    enforce_uses_libs: false,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}
