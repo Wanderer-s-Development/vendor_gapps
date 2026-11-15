@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     GoogleContacts \
     GoogleDialer \
     PrebuiltBugle \
-    NexusLauncherRelease \
     privapp-permissions-google-p.xml
 
 
